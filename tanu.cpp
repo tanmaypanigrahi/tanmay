@@ -1,18 +1,20 @@
-//library
-#include <iostream>
+#include<iostream>
 using namespace std;
 int main()
 {
-int a,b;//declaring two integer variables at a time
-double d;//declarring varible of double datatype
-float f;//declaring float variable
-bool boolb;//declaring boolean variable
-char charc ;//declaring character value
-//displayig size of different datatypes
-cout<<"size of integer datatype is"<<sizeof(a)<<endl;
-cout<<"size of double  datatype is"<<sizeof(d)<<endl;
-cout<<"size of float  datatype is"<<sizeof(f)<<endl;
-cout<<"size of boolean datatype is"<<sizeof(boolb)<<endl;
-cout<<"size of character datatype is"<<sizeof(charc)<<endl;
+int l;
+double m,km;
+//input length
+cout<<"enter length in centimeters"<<endl;
+cin>> l;
+//to convert into metres
+m=l/100.0;
+//to convert into kilometres
+km=l/100000.0;
+//display length in metres
+cout<<"length in metres="<<m<<endl;
+//display length in kilometres
+cout<<"length in kilometres="<<km<<endl;
 return 0;
 }
+
