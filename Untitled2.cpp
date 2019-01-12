@@ -128,8 +128,9 @@ int main()
 	l1.insert(3);
 	l1.insert(4);
 	l1.display();
+    l1.deleteat(2);
+	l1.display();
 	l1.delet();
     l1.display();
-	l1.deleteat(2);
-	l1.display();	
+	
 }
