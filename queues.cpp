@@ -14,12 +14,12 @@ class node
 		value=data;
 	}
 };
-class queue
+class queueLL
 {
  public:
  node * front;
  node * end;
- queue()
+ queueLL()
  {
  	front=NULL;
  	end=NULL;
@@ -82,7 +82,7 @@ class queue
 };
 int main()
 {
-	queue q1;
+	queueLL q1;
 	int i=0;
 	for(i=0;i<5;i++)
 	 q1.enqueue(i);
