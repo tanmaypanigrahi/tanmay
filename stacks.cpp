@@ -83,13 +83,13 @@ int main()
 	int i;
 	for(i=0;i<6;i++)
 	s1.push(i);
+	s1.display();
 	cout<<s1.isEmpty()<<endl;
   	cout<<s1.size()<<endl;
-	s1.display();
 	for(i=0;i<3;i++)
 	s1.pop();
+	s1.display();
 	cout<<s1.isEmpty()<<endl;
 	cout<<s1.size()<<endl;
-	s1.display();
 	return 0;
 }
