@@ -26,7 +26,7 @@ void build_minheap(int *a, int n)
     int i;
     for(i = n/2; i >= 1; i--)
     {
-        min_heapify(a,i,n);
+        min_heap(a,i,n);
     }
 }
 int main()
